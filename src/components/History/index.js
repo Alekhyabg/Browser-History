@@ -105,7 +105,7 @@ class History extends Component {
     })
     console.log(HistoryList.length)
     if (HistoryList.length === 1) {
-      this.searchInput({isShow: true})
+      this.setState({isShow: true})
     }
   }
 
